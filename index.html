@@ -1,15 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Component Library</title>
+
+
+<!-- CSS way 1: Style tag
+    <style>
+        body{
+            color:red;
+        }
+    </style> -->
+
+
+<!-- Third Way of  -->
+    <link href="styles.css" rel="stylesheet" />
+
 </head>
+
 <body>
-    <h1>gaurav's component library</h1>
-    <p>I am attending neog.camp and I want to make a library which would make all my projects look good and consistent.</p>
-    
+    <h1 id="lib-header"> gaurav's component library</h1>
+ 
+    <!-- CSS way 2: using Style Attribute 
+        style = "color:red" -->
+
+    <p>I am attending neog.camp and I want to make a library which would make all my projects look good and consistent.
+    </p>
+
     <hr>
 
     <h2>@container</h2>
@@ -18,7 +38,7 @@
     <div>This is a fluid container and it will go till the end of the page.</div>
 
     <h3>center container</h3>
-    <div>This is a centered container and it will go till the specified width.   </div>
+    <div>This is a centered container and it will go till the specified width. </div>
 
     <hr>
 
@@ -62,24 +82,54 @@
         <div>iAmBrand</div>
         <ul>
             <li>
-                <a href = "/">home</a>
+                <a href="/">home</a>
             </li>
             <li>
-                <a href = "/">products</a>
+                <a href="/">products</a>
             </li>
             <li>
-                <a href ="/">about</a>
+                <a href="/">about</a>
             </li>
         </ul>
     </nav>
 
-    <hr>    
+    <hr>
 
     <h2>header</h2>
 
-     <header>
-         <img src="images/hero.svg"/>
-         <h1>Heading inside hero </h1>
-     </header>   
+    <header>
+        <img src="images/hero.svg" />
+        <h1>Heading inside hero </h1>
+    </header>
+
+    <hr>
+
+    <h2>@section</h2>
+
+
+    <section>
+        <h3>white section</h3>
+        <p>This is under white section </p>
+    </section>
+    <section>
+        <h3>off white </h3>
+        <p>This is under off white section</p>
+    </section>
+
+    <hr>
+
+    <h2>@footer</h2>
+
+    <footer>
+        <div>Some small heading inside footer</div>
+        <ul>
+            <li>social one</li>
+            <li>social two</li>
+            <li>social three</li>
+        </ul>
+    </footer>
+
+
 </body>
-</html> 
+
+</html>
