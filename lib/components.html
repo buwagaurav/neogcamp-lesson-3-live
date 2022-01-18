@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Component Library</title>
+
+    <link href="/styles.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <h1> gaurav's component library</h1>
+
+    <p>I am attending neog.camp and I want to make a library which would make all my projects look good and consistent.
+    </p>
+
+    <hr>
+
+    <p> This paragraph will have a <strong>bold</strong> text.</p>
+    <h2>@container</h2>
+
+    <h3>fluid container</h3>
+    <div class="container-fluid">This is a fluid container and it will go till the end of the page.</div>
+
+    <h3>center container</h3>
+    <div class="container container-center">This is a centered container and it will go till the specified width. </div>
+
+    <hr>
+
+    <h2>@links</h2>
+
+
+    <a class="link link-primary" href="/">Primary Link</a>
+    <a class="link link-secondary" href="/">Secondary Link</a>
+
+    <h2>@lists</h2>
+    <h3>unordered lists</h3>
+    <p>This list will not have the bullet</p>
+
+    <ul class="list-non-bullet">
+        <li>Item one</li>
+        <li>Item two</li>
+        <li>Item three</li>
+    </ul>
+
+
+    <h3>unordered inline list</h3>
+    <!-- I want inline list means in single row not items in multiple rows. Eg. Item1->Item2->Item3 ... So that is why this is corrected in CSS-->
+    <ul class="list-non-bullet">
+        <li class="list-item-inline">Inline Item one</li>
+        <li class="list-item-inline">Inline Item two</li>
+        <li class="list-item-inline">Inline Item three</li>
+    </ul>
+
+    <h3> reverse ordered list</h3>
+
+    <ol reversed>
+        <li>milk</li>
+        <li>egg</li>
+        <li>break</li>
+    </ol>
+
+    <hr />
+
+    <h2>@nav </h2>
+
+    <nav class="navigation">
+        <div class="nav-brand">iAmBrand</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">products</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">about</a>
+            </li>
+        </ul>
+    </nav>
+
+    <hr>
+
+    <h2>header</h2>
+
+    <header class="hero">
+        <img class="hero-img" src="images/hero.svg" />
+        <h1 class="hero-heading">adarsh balak the <span class="heading-inverted">web developer</span>
+        </h1>
+    </header>
+
+    <hr>
+
+    <h2>@section</h2>
+    <section class="section">
+        <div class="container container-center">
+            <h3>white section</h3>
+            <p>This is under white section </p>
+        </div>
+
+    </section>
+    <section class="section ow">
+        <div class="container container-center">
+            <h3>off white section</h3>
+            <p>Data science continues to evolve as one of the most promising and in-demand career paths for skilled professionals. Today, successful data professionals understand that they must advance past the traditional skills of analyzing large amounts of data, data mining, and programming skills. In order to uncover useful intelligence for their organizations, data scientists must master the full spectrum of the data science life cycle and possess a level of flexibility and understanding to maximize returns at each phase of the process.</p>
+        </div>
+    </section>
+
+    <hr>
+
+    <h2>@footer</h2>
+
+    <footer class="footer">
+        <div class="footer-header"> Some small heading inside footer</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline"><a class="link" href="/">
+                    social one
+                </a>
+            </li>
+            <li class="list-item-inline"><a class="link" href="/">
+                    social two
+                </a>
+            </li>
+            <li class="list-item-inline"><a class="link" href="/">
+                    social three
+                </a>
+            </li>
+
+        </ul>
+    </footer>
+
+
+</body>
+
+</html>

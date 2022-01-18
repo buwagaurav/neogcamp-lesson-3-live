@@ -1,139 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Component Library</title>
-
-    <link href="styles.css" rel="stylesheet" />
-
+    <title>Home | Buwa</title>
+    <link href="styles.css" rel="stylesheet" />      
 </head>
-
 <body>
-    <h1> gaurav's component library</h1>
-
-    <p>I am attending neog.camp and I want to make a library which would make all my projects look good and consistent.
-    </p>
-
-    <hr>
-
-    <p> This paragraph will have a <strong>bold</strong> text.</p>
-    <h2>@container</h2>
-
-    <h3>fluid container</h3>
-    <div class="container-fluid">This is a fluid container and it will go till the end of the page.</div>
-
-    <h3>center container</h3>
-    <div class="container container-center">This is a centered container and it will go till the specified width. </div>
-
-    <hr>
-
-    <h2>@links</h2>
-
-
-    <a class="link link-primary" href="/">Primary Link</a>
-    <a class="link link-secondary" href="/">Secondary Link</a>
-
-    <h2>@lists</h2>
-    <h3>unordered lists</h3>
-    <p>This list will not have the bullet</p>
-
-    <ul class="list-non-bullet">
-        <li>Item one</li>
-        <li>Item two</li>
-        <li>Item three</li>
-    </ul>
-
-
-    <h3>unordered inline list</h3>
-    <!-- I want inline list means in single row not items in multiple rows. Eg. Item1->Item2->Item3 ... So that is why this is corrected in CSS-->
-    <ul class="list-non-bullet">
-        <li class="list-item-inline">Inline Item one</li>
-        <li class="list-item-inline">Inline Item two</li>
-        <li class="list-item-inline">Inline Item three</li>
-    </ul>
-
-    <h3> reverse ordered list</h3>
-
-    <ol reversed>
-        <li>milk</li>
-        <li>egg</li>
-        <li>break</li>
-    </ol>
-
-    <hr />
-
-    <h2>@nav </h2>
-
     <nav class="navigation">
-        <div class="nav-brand">iAmBrand</div>
+        <div class="nav-brand"> Gaurav Buwa</div>
+        Software Developer
         <ul class="list-non-bullet nav-pills">
             <li class="list-item-inline">
-                <a class="link link-active" href="/">home</a>
+                <a class="link link-active" href="/">Home</a>
             </li>
             <li class="list-item-inline">
-                <a class="link" href="/">products</a>
+                <a class="link" href="/projects.html">Projects</a>
             </li>
             <li class="list-item-inline">
-                <a class="link" href="/">about</a>
+                <a class="link" href="/experience.html">Experience</a>
             </li>
         </ul>
     </nav>
 
-    <hr>
-
-    <h2>header</h2>
-
     <header class="hero">
         <img class="hero-img" src="images/hero.svg" />
-        <h1 class="hero-heading">adarsh balak the <span class="heading-inverted">web developer</span>
+        <h1 class="hero-heading">Gaurav Buwa the <span class="heading-inverted">Web Developer</span>
         </h1>
     </header>
 
-    <hr>
-
-    <h2>@section</h2>
-    <section class="section">
-        <div class="container container-center">
-            <h3>white section</h3>
-            <p>This is under white section </p>
-        </div>
-
-    </section>
     <section class="section ow">
         <div class="container container-center">
-            <h3>off white </h3>
-            <p>This is under off white section</p>
+            <h3>Technologies and Programming Languages</h3>
+            <p>I am familiar with HTML5, CSS3, Git, C++, Java, SQL, DBMS, NodeJS, NLP, Machine Learning</p>
         </div>
     </section>
 
-    <hr>
+    <section class="section">
+        <div class="container container-center">
+            <h3>Projects</h3>
+            <p>I like to showcase my work and thus, you can see my projects hosted online</p>
+            <a class="link link-primary" href="/">See Projects</a>
+        </div>
+    </section>
 
-    <h2>@footer</h2>
+    <section class="section ow">
+        <div class="container container-center">
+            <h3>Coding Platforms IDs</h3>
+            <p>I like to showcase some of my coding platform ids.</p>
+
+            <ul class="link list-non-bullet">
+                <li class= "link list-item-inline">
+                    <a class="link link-primary" href="https://leetcode.com/wantedgv/"> LeetCode</a>
+                </li>
+                <li class="link list-item-inline">
+                    <a class="link  link-primary" href="https://auth.geeksforgeeks.org/user/gauravbuwa18/practice/"> GeeksForGeeks</a>
+                </li>
+                <li class="link list-item-inline">
+                    <a class="link link-primary" href="https://www.hackerrank.com/gauravbuwa18">
+                    HackerRank</a>
+                </li>
+            </ul>
+
+           
+
+        </div>
+    </section>
 
     <footer class="footer">
-        <div 
-        class="footer-header"> Some small heading inside footer</div>
+        <div class="footer-header"> Connect to me Socially</div>
         <ul class="social-links list-non-bullet">
-            <li class="list-item-inline"><a class="link" href="/">
-                social one
+            <li class="list-item-inline "><a class="link" href="https://www.linkedin.com/in/buwa26/">
+                Linkedin
                 </a>
             </li>
-            <li class="list-item-inline"><a class="link" href="/">
-                social two
+            <li class="list-item-inline"><a class="link Linked icon-button" href="https://github.com/buwagaurav">
+                    Github
                 </a>
             </li>
-            <li class="list-item-inline"><a class="link" href="/">
-                social three
+            <li class="list-item-inline"><a class="link" href="gauravbuwa98@gmail.com"> G-mail
                 </a>
             </li>
-            
+
         </ul>
     </footer>
 
-
 </body>
-
 </html>
