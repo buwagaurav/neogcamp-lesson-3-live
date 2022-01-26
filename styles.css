@@ -1,11 +1,73 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 :root {
-    --primary-color: #7C3AED;
+    --primary-color: #460cceee;
     --dark-gray: #6B7280;
     --off-white: #F3F4F6;
 }
 
+.left {
+    display: flex; 
+    justify-content: center;
+    margin: auto;
+
+}
+
+.scroll-up-btn.show {
+    bottom:30px;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.scroll-up-btn {
+    position: fixed;
+    height: 40px;
+    width: 38px;
+    background: crimson;
+    right: 30px;
+    bottom: 10px;
+    text-align: center;
+    line-height: 45px;
+    color: #fff;
+    z-index: 9999;
+    font-size: 30px;
+    border-radius: 6px;
+    border-bottom-width: 2px;
+    cursor: pointer;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+
+.fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    font-weight: 900;
+    font-family: "Font Awesome 5 free";
+}
+
+section {
+    padding: 100px;
+}
+
+.left img {
+    height: 20px;
+    width: 10px;
+}
+
+.column-left {
+    margin-left: 2rem;
+    margin-right: auto;
+    width: auto;
+    padding-top: 2rem;
+    padding-left: 0rem;
+    display: block;
+}
 
 body {
     font-family: 'Montserrat', sans-serif;
@@ -14,6 +76,63 @@ body {
 
 hr {
     margin: 2rem 0rem;
+}
+
+.typed-cursor {
+    opacity: 1;
+}
+
+
+.serv-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+
+i {
+    font-size: 50px;
+    color: crimson;
+    transition: color 0.3s ease;
+    font-style: italic;
+}
+
+.card:hover {
+    background: coral;
+}
+
+.column-left .link .link-primary .card .i:hover {
+    background: coral;
+}
+
+.hme {
+    display: flex;
+    height: 100vh;
+    color: black;
+    min-height: 500px;
+    background-attachment: fixed;
+    font-family: "Ubuntu", sans-serif;
+}
+
+
+
+.card {
+    box-sizing: border-box;
+    display: block;
+    /* width: calc(33% - 30px); */
+    width: 30%;
+    background-color: rgb(42, 186, 190);
+    text-align: center;
+    border-radius: 8px;
+    padding: 30px 0px;
+    cursor:pointer;
+    transition: all 0.3 ease;
 }
 
 
@@ -35,10 +154,13 @@ hr {
     padding: 0.5rem 1rem;
 }
 
+
+
 .link-primary {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
+
 }
 
 .link-secondary {
@@ -67,12 +189,13 @@ hr {
 .navigation {
     background-color: var(--primary-color);
     color: white;
-    padding: 1rem;
+    padding: 1rem 0.5rem;
     border-bottom-left-radius: 1rem;
 }
 
 .navigation .nav-brand {
     font-weight: bold;
+    
 }
 
 .navigation .nav-pills {
@@ -138,6 +261,7 @@ hr {
 
 .ow {
     background-color: var(--off-white);
+    border-radius: 1rem;
 }
 
 
