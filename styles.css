@@ -6,6 +6,22 @@
     --off-white: #F3F4F6;
 }
 
+.goTopBtn {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    /* color: rgb(165, 29, 29);
+    background-color:rgb(173, 28, 108); */
+    bottom: 40px;
+    right: 50px;
+    text-decoration: dashed;
+    text-align: center;
+    line-height: 0.5;
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    font-size: 1rem;
+}
+
 .left {
     display: flex; 
     justify-content: center;
@@ -23,12 +39,12 @@
     position: fixed;
     height: 40px;
     width: 38px;
-    background: crimson;
+    /* background: white; */
     right: 30px;
     bottom: 10px;
     text-align: center;
     line-height: 45px;
-    color: #fff;
+    
     z-index: 9999;
     font-size: 30px;
     border-radius: 6px;
@@ -98,7 +114,7 @@ hr {
 
 i {
     font-size: 50px;
-    color: crimson;
+    color: white;
     transition: color 0.3s ease;
     font-style: italic;
 }
